@@ -8,8 +8,9 @@ import Header from'./components/Header-Footer/Header'
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header/>
+      <div className="App" style={{ height:"1500px",background:"lime"}} >
+        <Header />
+     
       </div>
     );
   }
