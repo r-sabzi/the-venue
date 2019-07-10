@@ -1,15 +1,21 @@
 import React from 'react'
 import Carousel from './Carousel'
+import TimeUntil from './TimeUntil'
+
+
 export default function Featured() {
     return (
-        <div style={{position:"relative"}}>
-            <Carousel/>
-            
+        <div style={{ position: "relative" }}>
+            <Carousel />
+
             <div className="artist_name">
                 <div className="wrapper">
-                    Ariana Grande 
+                    Ariana Grande
                 </div>
             </div>
+            <TimeUntil />
         </div>
+
+
     )
 }
